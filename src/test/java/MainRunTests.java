@@ -6,6 +6,7 @@ public class MainRunTests {
 
     @Test
     public void run() {
-
+        mainRun = new MainRun();
+        mainRun.getRoom();
     }
 }
